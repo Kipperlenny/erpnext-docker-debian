@@ -28,6 +28,6 @@ WORKDIR /home/$systemUser/$benchFolderName
 
 ### For public repository > Start ###
 #
-#RUN bench get-app erpnext_webzap https://github.com/Kipperlenny/erpnext-docker-debian
+RUN bench get-app erpnext_webzap https://github.com/Kipperlenny/erpnext-docker-debian
 #
 ### For public repository > End ###
